@@ -91,11 +91,16 @@ export default class Navbars extends React.Component {
                 </DropdownMenu>
           </UncontrolledDropdown>
           <NavItem>
+            <NavLink href="/training">Training</NavLink>
+          </NavItem>
+          <NavItem>
             <NavLink href="/portfolio">PORTFOLIO</NavLink>
           </NavItem>
           <NavItem>
             <NavLink href="/contact">CONTACT</NavLink>
+            
           </NavItem>
+          
         </Nav>
       </Collapse>
     </Navbar>

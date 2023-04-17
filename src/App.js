@@ -22,6 +22,13 @@ import Custom from './compenent/Custom'
 import Psd from './compenent/Psd'
 import Responsive from './compenent/Responsive'
 import Portfolio from './compenent/Portfolio'
+import Training from "./compenent/Training";
+import Advance_Drupal_Course from "./compenent/Courses/Advance_Drupal_Course";
+import Advance_Php_Course from "./compenent/Courses/Advance_Php_Course";
+import Drupal_course from "./compenent/Courses/Drupal_course";
+import Laravel_course from "./compenent/Courses/Laravel_course";
+import Php_course from "./compenent/Courses/Php_course";
+import React_course from "./compenent/Courses/React_course";
 
 
 function App() {
@@ -44,6 +51,13 @@ function App() {
               <Route exact path="/responsive-web-designing" element={<Responsive/>} />
               <Route exact path="/psd-to-html" element={<Psd/>} />
               <Route exact path="/portfolio" element={<Portfolio/>} />
+              <Route exact path="/training" element={<Training/>} />
+              <Route exact path="/advance-drupal-course" element={<Advance_Drupal_Course/>} />
+              <Route exact path="/advance-php-course" element={<Advance_Php_Course/>} />
+              <Route exact path="/drupal-course" element={<Drupal_course/>} />
+              <Route exact path="/laravel-course" element={<Laravel_course/>} />
+              <Route exact path="/php-course" element={<Php_course/>} />
+              <Route exact path="/react-course" element={<React_course/>} />
             </Routes>
             <Footer />
         </Router> 
